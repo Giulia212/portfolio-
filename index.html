@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giulia Pomposelli | UI/UX & Product Designer Portfolio</title>
+  <meta name="description" content="Portfolio di Giulia Pomposelli, UI/UX & Product Designer specializzata in esperienze digitali intuitive, design systems e interfacce editoriali moderne.">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23111111'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='50' font-weight='700' fill='%23ffffff'>G</text></svg>">
+
+  <!-- Google Fonts: Inter + Instrument Serif for editorial elegance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+
+  <!-- Announcement / Status Bar -->
+  <div class="top-badge">
+    <div class="container badge-content">
+      <span class="status-dot"></span>
+      <span>Disponibile per nuovi progetti freelance & collaborazioni</span>
+      <a href="#contact" class="badge-link">Parliamone &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#" class="logo" aria-label="Home Portfolio">
+        <span class="logo-mark">G</span>
+        <span class="logo-text">Giulia Pomposelli</span>
+      </a>
+
+      <nav class="nav-links" id="nav-menu" aria-label="Navigazione principale">
+        <a href="#projects" class="nav-link active">Progetti</a>
+        <a href="#about" class="nav-link">Chi Sono</a>
+        <a href="#contact" class="nav-link cta-button">Contattami</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="icon-btn" aria-label="Cambia tema chiaro/scuro" title="Cambia modalità colore">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="menu-toggle" class="icon-btn mobile-only" aria-label="Apri menu mobile" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-tagline">
+          <span class="pill-label">UI/UX & Product Designer</span>
+          <span class="location-pill">📍 Milano / Remoto</span>
+        </div>
+
+        <h1 class="hero-title">
+          Creo esperienze digitali <span class="editorial-serif">eleganti</span>, semplici e focalizzate sulle persone.
+        </h1>
+
+        <p class="hero-subtitle">
+          Unisco rigore metodologico, sensibilità tipografica ed estetica editoriale per trasformare problemi complessi in prodotti intuitivi, scalabili e memorabili.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            Esplora i Progetti
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+          <a href="#about" class="btn btn-secondary">
+            Chi Sono
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-subtitle">Portfolio Selezionato</span>
+            <h2 class="section-title">I Miei Lavori</h2>
+          </div>
+          <p class="section-desc">
+            Una raccolta dei miei progetti di design, prototipi e case study. Personalizza le schede sottostanti con i tuoi lavori.
+          </p>
+        </div>
+
+        <!-- Project Grid (Schede Pronte da Personalizzare) -->
+        <div class="projects-grid" id="projects-container">
+          
+          <!-- ==========================================
+               SCHEDA PROGETTO 1
+               Sostituisci l'immagine src, il titolo, i tag e la descrizione
+               ========================================== -->
+          <article class="project-card">
+            <div class="project-media placeholder-media">
+              <!-- Sostituisci questo link o usa un'immagine locale (es: images/progetto-1.jpg) -->
+              <div class="media-placeholder-content">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+                <span>Inserisci qui l'immagine del Progetto 1</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">UI/UX Design</span>
+                <span class="tag">Mobile App</span>
+              </div>
+              <h3 class="project-title">Titolo del Tuo Progetto 1</h3>
+              <p class="project-summary">
+                Inserisci qui una breve sintesi del progetto: il problema affrontato, gli obiettivi di design e il valore generato per gli utenti.
+              </p>
+              <div class="project-footer">
+                <span class="project-metric">Anno / Categoria</span>
+                <span class="project-arrow">&rarr;</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==========================================
+               SCHEDA PROGETTO 2
+               ========================================== -->
+          <article class="project-card">
+            <div class="project-media placeholder-media">
+              <div class="media-placeholder-content">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+                <span>Inserisci qui l'immagine del Progetto 2</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">Web Design</span>
+                <span class="tag">Design System</span>
+              </div>
+              <h3 class="project-title">Titolo del Tuo Progetto 2</h3>
+              <p class="project-summary">
+                Descrivi il secondo progetto, ad esempio un'applicazione web o un sistema di componenti creato per un brand o una startup.
+              </p>
+              <div class="project-footer">
+                <span class="project-metric">Anno / Categoria</span>
+                <span class="project-arrow">&rarr;</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==========================================
+               SCHEDA PROGETTO 3
+               ========================================== -->
+          <article class="project-card">
+            <div class="project-media placeholder-media">
+              <div class="media-placeholder-content">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+                <span>Inserisci qui l'immagine del Progetto 3</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">Research & UX</span>
+                <span class="tag">Prototyping</span>
+              </div>
+              <h3 class="project-title">Titolo del Tuo Progetto 3</h3>
+              <p class="project-summary">
+                Descrivi il terzo progetto: le fasi di user research, wireframing e test di usabilità condotti per raggiungere la soluzione finale.
+              </p>
+              <div class="project-footer">
+                <span class="project-metric">Anno / Categoria</span>
+                <span class="project-arrow">&rarr;</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==========================================
+               SCHEDA PROGETTO 4
+               ========================================== -->
+          <article class="project-card">
+            <div class="project-media placeholder-media">
+              <div class="media-placeholder-content">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+                <span>Inserisci qui l'immagine del Progetto 4</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">Branding</span>
+                <span class="tag">Editorial</span>
+              </div>
+              <h3 class="project-title">Titolo del Tuo Progetto 4</h3>
+              <p class="project-summary">
+                Descrivi il quarto progetto, come un'identità visiva, packaging o un'esperienza digitale per un brand emergente.
+              </p>
+              <div class="project-footer">
+                <span class="project-metric">Anno / Categoria</span>
+                <span class="project-arrow">&rarr;</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-section" id="about">
+      <div class="container about-container">
+        <div class="about-image-column">
+          <div class="about-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Ritratto di Giulia Pomposelli" class="about-photo">
+            <div class="experience-badge">
+              <span class="badge-text">UI/UX & Product Designer &bull; Focus su usabilità ed estetica pulita</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text-column">
+          <span class="section-subtitle">Dietro le quinte</span>
+          <h2 class="section-title">Design rigoroso al servizio della chiarezza umana.</h2>
+          
+          <div class="editorial-quote">
+            &ldquo;La perfezione si ottiene non quando non c'è più nulla da aggiungere, ma quando non vi è più nulla da togliere.&rdquo;
+          </div>
+
+          <p class="about-paragraph">
+            Ciao! Sono Giulia Pomposelli, una <strong>UI/UX & Product Designer</strong> con una forte passione per la tipografia, l'architettura delle informazioni e la progettazione di interfacce digitali pulite e funzionali.
+          </p>
+          <p class="about-paragraph">
+            Il mio approccio unisce l'ascolto delle persone con una profonda cura per i dettagli visivi, trasformando requisiti complessi in percorsi utente semplici, intuitivi e accessibili.
+          </p>
+
+          <div class="about-values">
+            <div class="value-item">
+              <strong>Accessibilità & Inclusività</strong>
+              <p>Esperienze progettate per essere fruibili da chiunque, rispettando standard e buone pratiche di usabilità.</p>
+            </div>
+            <div class="value-item">
+              <strong>Collaborazione con i Team</strong>
+              <p>Attenzione alla fattibilità tecnica e allineamento continuo con sviluppatori e stakeholder di prodotto.</p>
+            </div>
+          </div>
+
+          <div class="about-actions">
+            <a href="#contact" class="btn btn-primary">Lavoriamo Insieme</a>
+            <a href="javascript:void(0)" class="btn btn-secondary" id="download-cv-btn" title="Scarica il CV in formato testo">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Scarica Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-container">
+        <div class="contact-header text-center">
+          <span class="section-subtitle">Cominciamo qualcosa insieme</span>
+          <h2 class="contact-title">Hai in mente un progetto o un'opportunità da discutere?</h2>
+          <p class="contact-subtitle">
+            Sono sempre interessata a nuove sfide di design, progetti innovativi o ruoli all'interno di team dinamici.
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Direct Info Column -->
+          <div class="contact-info-card">
+            <h3 class="info-title">Contatti Diretti</h3>
+            <p class="info-desc">Sentiti libero di scrivermi via email oppure connettiti sui miei canali professionali.</p>
+
+            <div class="contact-method">
+              <span class="method-label">Email</span>
+              <div class="email-copy-box">
+                <span id="designer-email">giulia.pomposelli@example.com</span>
+                <button id="copy-email-btn" class="copy-btn" title="Copia email negli appunti">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                  <span>Copia</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <span class="method-label">Localizzazione</span>
+              <p class="method-val">Milano, Italia (Disponibile per lavoro da remoto & viaggi)</p>
+            </div>
+
+            <div class="contact-method">
+              <span class="method-label">Profili Social & Portfolio</span>
+              <div class="social-links">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-chip">LinkedIn</a>
+                <a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="social-chip">Behance</a>
+                <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" class="social-chip">Dribbble</a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-chip">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Form Column -->
+          <div class="contact-form-card">
+            <h3 class="info-title">Invia un Messaggio</h3>
+            <form id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Il tuo nome *</label>
+                  <input type="text" id="name" name="name" placeholder="Mario Rossi" required>
+                  <span class="field-error" id="name-error"></span>
+                </div>
+                <div class="form-group">
+                  <label for="email">La tua email *</label>
+                  <input type="email" id="email" name="email" placeholder="mario@azienda.com" required>
+                  <span class="field-error" id="email-error"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="service">Tipo di Progetto</label>
+                <select id="service" name="service">
+                  <option value="ui-ux">Ridisegno UI/UX Prodotto Digitale</option>
+                  <option value="mobile-app">Applicazione Mobile (iOS / Android)</option>
+                  <option value="web-design">Sito Web & Esperienza Digitale</option>
+                  <option value="branding">Brand Identity & Visual Design</option>
+                  <option value="consulting">Consulenza UX & Audit</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Raccontami del tuo progetto *</label>
+                <textarea id="message" name="message" rows="4" placeholder="Descrivi brevemente gli obiettivi, tempistiche e aspettative..." required></textarea>
+                <span class="field-error" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                <span>Invia Messaggio</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+
+              <div id="form-feedback" class="form-feedback" style="display: none;"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span class="footer-logo">Giulia Pomposelli</span>
+        <p class="footer-copy">&copy; 2026 Giulia Pomposelli &mdash; Tutti i diritti riservati. Progettato con cura minimale e codice pulito.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top" aria-label="Torna all'inizio">
+          Torna su &uarr;
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Edit Toolbar -->
+  <aside class="edit-toolbar-container" id="edit-toolbar-container" aria-label="Strumenti di Modifica Sito">
+    <!-- Collapsed Toggle Button -->
+    <button id="toggle-edit-btn" class="edit-pill-btn" title="Attiva la modalità di modifica visuale">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+      <span id="edit-btn-label">Modifica Sito</span>
+    </button>
+
+    <!-- Expanded Edit Panel (Visible during edit mode) -->
+    <div class="edit-panel" id="edit-panel" style="display: none;">
+      <div class="edit-panel-header">
+        <span class="editing-indicator"></span>
+        <span class="edit-panel-title">Modalità Modifica Attiva</span>
+        <span class="edit-panel-hint">Clicca sui testi per scrivere e sulle immagini per sostituirle</span>
+      </div>
+
+      <div class="edit-panel-actions">
+        <button id="open-colors-btn" class="toolbar-btn toolbar-btn-secondary" title="Modifica i colori di sfondo del sito">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          Colori Sfondi
+        </button>
+
+        <button id="add-project-btn" class="toolbar-btn toolbar-btn-secondary" title="Aggiungi una nuova scheda progetto">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Nuovo Progetto
+        </button>
+
+        <button id="save-content-btn" class="toolbar-btn toolbar-btn-primary" title="Salva le modifiche nel browser">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+          Salva Modifiche
+        </button>
+
+        <button id="export-html-btn" class="toolbar-btn toolbar-btn-secondary" title="Scarica il file index.html aggiornato con le tue modifiche">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Scarica File HTML
+        </button>
+
+        <button id="reset-default-btn" class="toolbar-btn toolbar-btn-danger" title="Ripristina i testi e immagini originali">
+          Ripristina
+        </button>
+
+        <button id="close-edit-btn" class="toolbar-btn toolbar-btn-close" title="Esci dalla modalità modifica">
+          &times;
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Visual Color Studio Modal -->
+  <div class="color-studio-backdrop" id="color-studio-modal" style="display: none;">
+    <div class="color-studio-card">
+      <div class="studio-header">
+        <div>
+          <h3 class="studio-title">🎨 Studio Palette & Colori di Sfondo</h3>
+          <p class="studio-subtitle">Scegli una sezione e seleziona il colore visivamente. Le modifiche sono istantanee.</p>
+        </div>
+        <button id="close-studio-btn" class="studio-close-btn" title="Chiudi studio colori">&times;</button>
+      </div>
+
+      <!-- Step 1: Select Section -->
+      <div class="studio-step">
+        <label class="step-label">1. Scegli quale parte del sito vuoi colorare:</label>
+        <div class="section-selector-pills" id="section-selector">
+          <button type="button" class="section-pill active" data-target="--bg-primary">
+            <span>Sfondo Pagina (Body)</span>
+          </button>
+          <button type="button" class="section-pill" data-target="--bg-card">
+            <span>Schede Progetti</span>
+          </button>
+          <button type="button" class="section-pill" data-target="--bg-header">
+            <span>Barra Header</span>
+          </button>
+          <button type="button" class="section-pill" data-target="--bg-hero">
+            <span>Sezione Hero</span>
+          </button>
+          <button type="button" class="section-pill" data-target="--bg-about">
+            <span>Sezione Chi Sono</span>
+          </button>
+          <button type="button" class="section-pill" data-target="--bg-contact">
+            <span>Sezione Contatti</span>
+          </button>
+          <button type="button" class="section-pill" data-target="--bg-footer">
+            <span>Footer</span>
+          </button>
+          <button type="button" class="section-pill" data-target="--accent-highlight">
+            <span>Pulsanti & Accento</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Step 2: Visual Color Picker & Sliders -->
+      <div class="studio-step">
+        <div class="step-header-with-preview">
+          <label class="step-label">2. Scegli il colore per: <strong id="active-target-name">Sfondo Pagina</strong></label>
+          <div class="current-color-badge">
+            <span class="color-preview-circle" id="current-color-circle" style="background-color: #fcfcfb;"></span>
+            <input type="text" id="color-hex-input" class="hex-text-input" value="#fcfcfb" maxlength="7" spellcheck="false">
+          </div>
+        </div>
+
+        <!-- Interactive Sliders (Hue + Lightness + Saturation) -->
+        <div class="visual-sliders-box">
+          <div class="slider-row">
+            <span class="slider-label">Tonalità</span>
+            <input type="range" min="0" max="360" value="45" id="slider-hue" class="color-slider slider-rainbow">
+          </div>
+          <div class="slider-row">
+            <span class="slider-label">Luminosità</span>
+            <input type="range" min="10" max="98" value="98" id="slider-lightness" class="color-slider slider-light">
+          </div>
+          <div class="slider-row">
+            <span class="slider-label">Intensità</span>
+            <input type="range" min="0" max="100" value="15" id="slider-saturation" class="color-slider slider-sat">
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 3: Quick Visual Swatches Grid (1-Click Color Swatches) -->
+      <div class="studio-step">
+        <label class="step-label">Oppure clicca su una tonalità selezionata:</label>
+        
+        <div class="swatches-categories">
+          <!-- Neutrals / Whites -->
+          <div class="swatch-group">
+            <span class="swatch-group-title">Neutri & Chiari</span>
+            <div class="swatches-row">
+              <button type="button" class="swatch-dot" style="background:#ffffff;" data-color="#ffffff" title="Bianco Puro"></button>
+              <button type="button" class="swatch-dot" style="background:#fcfcfb;" data-color="#fcfcfb" title="Off-White Minimal"></button>
+              <button type="button" class="swatch-dot" style="background:#f7f7f5;" data-color="#f7f7f5" title="Grigio Chiarissimo"></button>
+              <button type="button" class="swatch-dot" style="background:#f3f4f6;" data-color="#f3f4f6" title="Grigio Perla"></button>
+              <button type="button" class="swatch-dot" style="background:#e5e7eb;" data-color="#e5e7eb" title="Grigio Cenere"></button>
+            </div>
+          </div>
+
+          <!-- Sands & Warm Beiges -->
+          <div class="swatch-group">
+            <span class="swatch-group-title">Sabbia & Caldi</span>
+            <div class="swatches-row">
+              <button type="button" class="swatch-dot" style="background:#fdfaf5;" data-color="#fdfaf5" title="Panna"></button>
+              <button type="button" class="swatch-dot" style="background:#f8f2e9;" data-color="#f8f2e9" title="Lino Naturale"></button>
+              <button type="button" class="swatch-dot" style="background:#f2e9dc;" data-color="#f2e9dc" title="Sabbia Calda"></button>
+              <button type="button" class="swatch-dot" style="background:#e8dcbf;" data-color="#e8dcbf" title="Corda"></button>
+              <button type="button" class="swatch-dot" style="background:#c9b08f;" data-color="#c9b08f" title="Caramello Chiaro"></button>
+            </div>
+          </div>
+
+          <!-- Sage & Greens -->
+          <div class="swatch-group">
+            <span class="swatch-group-title">Salvia & Botanici</span>
+            <div class="swatches-row">
+              <button type="button" class="swatch-dot" style="background:#f5f8f5;" data-color="#f5f8f5" title="Menta Soffusa"></button>
+              <button type="button" class="swatch-dot" style="background:#ebf2eb;" data-color="#ebf2eb" title="Salvia Chiaro"></button>
+              <button type="button" class="swatch-dot" style="background:#dbe7db;" data-color="#dbe7db" title="Salvia Naturale"></button>
+              <button type="button" class="swatch-dot" style="background:#b8d1b8;" data-color="#b8d1b8" title="Eucalipto"></button>
+              <button type="button" class="swatch-dot" style="background:#3b6e4e;" data-color="#3b6e4e" title="Verde Foresta"></button>
+            </div>
+          </div>
+
+          <!-- Terracotta & Rose -->
+          <div class="swatch-group">
+            <span class="swatch-group-title">Terracotta & Cipria</span>
+            <div class="swatches-row">
+              <button type="button" class="swatch-dot" style="background:#fdf6f4;" data-color="#fdf6f4" title="Cipria"></button>
+              <button type="button" class="swatch-dot" style="background:#faeae6;" data-color="#faeae6" title="Pesca Tenue"></button>
+              <button type="button" class="swatch-dot" style="background:#f4d0c8;" data-color="#f4d0c8" title="Rosa Antico"></button>
+              <button type="button" class="swatch-dot" style="background:#e09c8d;" data-color="#e09c8d" title="Terracotta Morbida"></button>
+              <button type="button" class="swatch-dot" style="background:#b84f3e;" data-color="#b84f3e" title="Ruggine Intenso"></button>
+            </div>
+          </div>
+
+          <!-- Slate & Blues -->
+          <div class="swatch-group">
+            <span class="swatch-group-title">Cielo & Ardesia</span>
+            <div class="swatches-row">
+              <button type="button" class="swatch-dot" style="background:#f0f5fa;" data-color="#f0f5fa" title="Ghiaccio"></button>
+              <button type="button" class="swatch-dot" style="background:#e2ecf5;" data-color="#e2ecf5" title="Cielo Chiaro"></button>
+              <button type="button" class="swatch-dot" style="background:#cbe0f0;" data-color="#cbe0f0" title="Azzurro Polvere"></button>
+              <button type="button" class="swatch-dot" style="background:#7fa5c9;" data-color="#7fa5c9" title="Carta da Zucchero"></button>
+              <button type="button" class="swatch-dot" style="background:#1d4ed8;" data-color="#1d4ed8" title="Cobalto Primario"></button>
+            </div>
+          </div>
+
+          <!-- Dark / Moody -->
+          <div class="swatch-group">
+            <span class="swatch-group-title">Scuri & Accenti</span>
+            <div class="swatches-row">
+              <button type="button" class="swatch-dot" style="background:#374151;" data-color="#374151" title="Grafite"></button>
+              <button type="button" class="swatch-dot" style="background:#27272a;" data-color="#27272a" title="Carbone"></button>
+              <button type="button" class="swatch-dot" style="background:#18181b;" data-color="#18181b" title="Nero Caldo"></button>
+              <button type="button" class="swatch-dot" style="background:#09090b;" data-color="#09090b" title="Nero Assoluto"></button>
+              <button type="button" class="swatch-dot" style="background:#000000;" data-color="#000000" title="Pure Black"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 4: Full Preset Themes (1-Click) -->
+      <div class="studio-step">
+        <label class="step-label">Tavolozze Complete Pronte (Cambiano tutto il sito):</label>
+        <div class="full-preset-buttons">
+          <button type="button" class="theme-preset-btn" data-theme="sand">🌾 Sabbia & Lino</button>
+          <button type="button" class="theme-preset-btn" data-theme="sage">🌿 Salvia Nordica</button>
+          <button type="button" class="theme-preset-btn" data-theme="minimal">⚪ Minimal White</button>
+          <button type="button" class="theme-preset-btn" data-theme="peach">🏺 Terracotta Calda</button>
+          <button type="button" class="theme-preset-btn" data-theme="slate">🧊 Ardesia Moderna</button>
+        </div>
+      </div>
+
+      <!-- Studio Footer Actions -->
+      <div class="studio-footer">
+        <button id="reset-all-colors-btn" class="toolbar-btn toolbar-btn-danger" type="button">Ripristina Colori Originali</button>
+        <button id="save-studio-btn" class="toolbar-btn toolbar-btn-primary" type="button">Salva Palette Colori</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden File Input for Image Uploading -->
+  <input type="file" id="image-file-input" accept="image/*" style="display:none;" aria-hidden="true">
+
+  <!-- Image Lightbox / Fullscreen Viewer -->
+  <div class="image-lightbox-backdrop" id="image-lightbox" style="display: none;" aria-hidden="true" role="dialog">
+    <button class="lightbox-close-btn" id="lightbox-close" aria-label="Chiudi visualizzatore immagine">&times;</button>
+    <div class="lightbox-dialog">
+      <div class="lightbox-image-box">
+        <img src="" alt="" id="lightbox-img" class="lightbox-img">
+      </div>
+      <div class="lightbox-caption" id="lightbox-caption">
+        <div class="lightbox-tags" id="lightbox-tags"></div>
+        <h3 class="lightbox-title" id="lightbox-title"></h3>
+        <p class="lightbox-desc" id="lightbox-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+
+  <!-- Script JS -->
+  <script src="script.js"></script>
+</body>
+</html>
